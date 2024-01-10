@@ -1,0 +1,20 @@
+; everything after a ; is deleted, per line
+; then, all whitespace before or after the line is removed
+; then, all the words are separated into separate strings
+; TEST file
+; limited opcodes:
+; 0 = NOP
+; 1 = SLEEP X (two bytes)
+; 2 = PRINT_ACC
+; 3 = LOAD ACC X (two bytes)
+; 4 = ACC++
+; 5 = ACC--
+; 6 = RET
+;
+
+  LOAD_ACC 0	; load acc with 0
+PRINT_ACC	; print the acc
+SLEEP 5		; sleep for 5 seconds
+ACC++		; increment ACC by 1
+PRINT_ACC	; print it out
+RET			; done.
