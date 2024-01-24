@@ -6,3 +6,12 @@ My kid has to write a MIPS32 compiler + VM for his semester project. I'm writing
 5. It's fun.
 
 So here it is. Only a little bit hacky. I particular like the VM.
+
+PS: It's not really functional yet. It sort of compiles, but this isn't working yet:
+1. labels
+2. offsets
+3. jump or branch or any of that
+4. floating point
+5. delayed slots
+6. lots of other stuff.
+7. 
